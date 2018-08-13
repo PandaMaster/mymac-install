@@ -8,7 +8,7 @@ Mac上有一部分软件需要通过命令行的进行安装和更新。一般�
 ## VIM
 MAC系统(10.11.6)自带VIM的版本是7.3，有很多插件都使用不了。  
 可以通过安装MacVim将VIM的版本升级到7.4。  
-直接在命令行输入｀vim｀就可以看到vim的版本。
+直接在命令行输入`vim`就可以看到vim的版本。
 安装MacVim的命令:`brew install macvim --with-lua --with-override-system-vim`  
 MacVim实际上就是有图形界面的VIM，操作方式和VIM类似。  
 可以通过Alfred的快捷键直接打开MacVim，但是Spotlight却搜索不到。
