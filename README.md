@@ -14,3 +14,7 @@ MacVim实际上就是有图形界面的VIM，操作方式和VIM类似。
 可以通过Alfred的快捷键直接打开MacVim，但是Spotlight却搜索不到。
 
 ## Python
+1.使用homebrew搜索python  
+    brew search python  
+2.安装python  
+    brew install python3
