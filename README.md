@@ -3,6 +3,7 @@ Mac上有一部分软件需要通过命令行的进行安装和更新。一般�
 
 ## 目录
 * [VIM](#VIM)
+* [Homebrew](#Homebrew)
 * [Python](#Python)
 
 ## VIM
@@ -12,6 +13,9 @@ MAC系统(10.11.6)自带VIM的版本是7.3，有很多插件都使用不了。
 安装MacVim的命令:`brew install macvim --with-lua --with-override-system-vim`  
 MacVim实际上就是有图形界面的VIM，操作方式和VIM类似。  
 可以通过Alfred的快捷键直接打开MacVim，但是Spotlight却搜索不到。
+
+## Homebrew
+Homebrew是一款MacOS平台下的软件包管理工具，拥有安装、卸载、更新、查看、搜索等很多实用的功能。
 
 ## Python
 1.使用homebrew搜索python  
