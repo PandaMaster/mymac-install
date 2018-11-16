@@ -15,7 +15,22 @@ MacVim实际上就是有图形界面的VIM，操作方式和VIM类似。
 可以通过Alfred的快捷键直接打开MacVim，但是Spotlight却搜索不到。
 
 ## Homebrew
-Homebrew是一款MacOS平台下的软件包管理工具，拥有安装、卸载、更新、查看、搜索等很多实用的功能。
+Homebrew是一款MacOS平台下的软件包管理工具，拥有安装、卸载、更新、查看、搜索等很多实用的功能。  
+[Homebrew官网](https://brew.sh/)
+- 安装  
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- 更新
+`brew update`
+由于国内GFW的原因，直接更新会没有响应。需要替换更新源[清华大学镜像](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)。
+```
+cd "$(brew --repo)"
+git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
+
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
+
+brew update
+```
 
 ## Python
 1.使用homebrew搜索python  
