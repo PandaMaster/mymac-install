@@ -35,4 +35,7 @@ brew update
 1.使用homebrew搜索python  
 `brew search python`  
 2.安装python  
-`brew install python3`
+`brew install python3`  
+安装完成后提示
+>==> Summary  
+>🍺  /usr/local/Cellar/python/3.7.0: 9,330 files, 160.3MB, built in 9 minutes 6 seconds
